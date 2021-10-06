@@ -32,7 +32,7 @@ public class BallControl : MonoBehaviour
     
     void PushBall()
     {
-        // float yRandomInitialForce = Random.Range(-yInitialForce, yInitialForce);
+        // float yRandomInitialForce = Random.Range(-yInitialForce, yInitialForce); <- Not using random
 
         float randomDirection = Random.Range(0, 2);
 
